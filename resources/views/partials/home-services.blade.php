@@ -9,11 +9,8 @@
 						<h3 class="text-center text-3xl text-blue-900 dark:text-white">
 							Website Building
 						</h3>
-						<p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+						<p class="mt-2 text-center text-3xl text-slate-500 dark:text-slate-400">
 							<small>starting from:</small> $430
-						</p>
-						<p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
-							Affordable Exploration
 						</p>
 					</a>
         </li>
@@ -24,11 +21,8 @@
 						<h3 class="text-center text-3xl text-blue-900 dark:text-white">
 							Internet Marketing
 						</h3>
-						<p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+						<p class="mt-2 text-center text-3xl text-slate-500 dark:text-slate-400">
 							<small>starting from:</small> $630
-						</p>
-						<p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
-							Best Selling Rocket!
 						</p>
 					</a>
         </li>
@@ -39,11 +33,8 @@
 						<h3 class="text-center text-3xl text-blue-900 dark:text-white">
 							IT Consulting
 						</h3>
-						<p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+						<p class="mt-2 text-center text-3xl text-slate-500 dark:text-slate-400">
 							<small>starting from:</small> $330
-						</p>
-						<p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
-							Luxury Starship
 						</p>
 					</a>
         </li>

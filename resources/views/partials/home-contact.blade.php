@@ -2,12 +2,14 @@
 	<h2 class="mb-6 text-center text-3xl font-bold text-white sm:text-4xl">
 		Contact Us
 	</h2>
-	<form action="" class="items-left mx-auto flex max-w-3xl flex-col gap-4 text-xl sm:text-2xl pb-20">
-		<label for="subject">Your Email:</label>
-		<input type="text" id="subject" name="subject" required minlength="3" maxlength="60" placeholder="Your Email"
-			class="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black dark:border-none sm:text-2xl" />
-		<label for="subject">Your Subject:</label>
-		<input type="text" id="subject" name="subject" required minlength="3" maxlength="60" placeholder="Your Subject"
+	<form action="/contact" method="POST" class="items-left mx-auto flex max-w-3xl flex-col gap-4 text-xl sm:text-2xl pb-20">
+		@csrf
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" minlength="3" maxlength="60" placeholder="Your Name"
+			class="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black dark:border-none sm:text-2xl" reqiuired />
+		<label for="email" required>Email:</label>
+		<input type="text" id="email" name="email" minlength="3" maxlength="60" placeholder="Your Email"
 			class="w-full rounded-xl border border-solid border-slate-900 p-3 text-1xl text-black dark:border-none sm:text-2xl" />
 		<label for="message">Message:</label>
 		<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required

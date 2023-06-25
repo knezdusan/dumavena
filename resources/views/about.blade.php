@@ -1,10 +1,10 @@
 <x-layout class="text-blue-600">
-	<secton id="main-wrapper" class="max-w-5xl border border-slate-800 mx-auto flex flex-col">
+	<secton id="main-wrapper" class="max-w-5xl mx-auto flex flex-col">
 		<h2 class="mt-16 mb12 text-center text-3xl font-bold text-white sm:text-4xl">
 			About Us
 		</h2>
 
-		<div id="contact-content" class="mx-5 my-10 text-lg">
+		<div id="contact-content" class="mx-5 my-10 pb-12 text-lg">
 			<p>At <a href="/" class="text-indigo-300 hover:text-white">Dumavena</a>, we are a dedicated team of professionals passionate about helping businesses succeed in the digital world. With expertise in website building, internet marketing promotion, and IT consulting, we provide comprehensive solutions tailored to your unique needs.</p>
 			<br>
 			<p>Our mission is to empower your online presence by creating stunning websites that captivate your audience and deliver exceptional user experiences. Through our strategic internet marketing strategies, we drive targeted traffic to your site, boost visibility, and generate tangible results.</p>

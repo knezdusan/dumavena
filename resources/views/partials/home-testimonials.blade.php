@@ -3,7 +3,7 @@
 		Testimonials
 	</h2>
 
-	<div id="testimonials-wrapper" class="max-w-5xl mx-auto grid grid-cols-4 gap-6 relative -z-10">
+	<div id="testimonials-wrapper" class="max-w-5xl mx-auto sm:grid grid-cols-1 sm:grid-cols-4 gap-6 relative -z-10">
 
 		<x-card class="bg-indigo-300 text-slate-800 col-span-2 relative">
 			<header class="flex items-center mb-2.5">
