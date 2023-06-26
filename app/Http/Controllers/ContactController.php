@@ -16,7 +16,7 @@ class ContactController extends Controller
 
 			Contact::create($contact_validated);
 
-			return redirect('/')->with('message', 'Thank you, we will reach out soon!');
+			return back()->with('msg', 'Thank you, we will reach out soon!');
 
 		}
 }

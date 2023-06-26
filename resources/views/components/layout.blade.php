@@ -9,6 +9,22 @@
 
 </head>
 <body {{ $attributes->merge(['class' => 'text-gray-300 bg-gray-900']) }}>
+	@if ($errors->any())
+		<div class="bg-red-900 text-pale-200 text-center py-3">
+				<strong>Whoops!</strong> There were some problems with your input.<br><br>
+				<ul>
+						@foreach ($errors->all() as $error)
+								<li>{{ $error }}</li>
+						@endforeach
+				</ul>
+		</div>
+	@endif
+
+	@if (session('msg'))
+		<div class="bg-green-900 text-pale-200 text-center py-3">
+				<strong>{{ session('msg') }}</strong>
+		</div>
+	@endif
 	<header class="bg-slate-800  sticky top-0 z-10 border-b-2 border-black">	
 		@include('partials/header')
 	</header>
