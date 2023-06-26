@@ -39,7 +39,7 @@
 				<img src="{{ asset('storage/images/testimonials/jjeanette.jpg') }}" class="w-10 h-10 border-2 border-white rounded-full mr-2.5" alt="" />
 				<div>
 					<h3 class="text-sm font-bold">Jeanette Harmon</h3>
-					<p class="opacity-80">Security Trails</p>
+					<p class="opacity-80">Securrity Traills</p>
 				</div>
 			</header>
 			<p class="text-xl font-normal leading-6 mt-5">

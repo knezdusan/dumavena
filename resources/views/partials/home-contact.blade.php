@@ -6,14 +6,11 @@
 		@csrf
 
 		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" minlength="3" maxlength="60" placeholder="Your Name"
-			class="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black dark:border-none sm:text-2xl" required />
+		<input type="text" id="name" name="name" minlength="3" maxlength="60" placeholder="Your Name" value="{{ old('name') }}" class="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black dark:border-none sm:text-2xl"  required />
 		<label for="email" >Email:</label>
-		<input type="text" id="email" name="email" minlength="3" maxlength="60" placeholder="Your Email" required
-			class="w-full rounded-xl border border-solid border-slate-900 p-3 text-1xl text-black dark:border-none sm:text-2xl" />
+		<input type="text" id="email" name="email" minlength="3" maxlength="60" placeholder="Your Email" value="{{ old('email') }}" class="w-full rounded-xl border border-solid border-slate-900 p-3 text-1xl text-black dark:border-none sm:text-2xl"  />
 		<label for="message">Message:</label>
-		<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required
-			class="w-full rounded-xl border border-solid border-slate-900 p-3 text-1xl text-black dark:border-none sm:text-2xl"></textarea>
+		<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" class="w-full rounded-xl border border-solid border-slate-900 p-3 text-1xl text-black dark:border-none sm:text-2xl" required>{{ old('message') }}</textarea>
 		<button
 			class="w-48 rounded-xl border border-solid border-slate-900 bg-slate-300 p-3 text-slate-800 hover:bg-slate-200 active:bg-slate-100 dark:border-none">
 			Submit
